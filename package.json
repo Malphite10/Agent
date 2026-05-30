@@ -19,8 +19,12 @@
   },
   "homepage": "https://github.com/Malphite10/Agent#readme",
   "devDependencies": {
+    "node-loader": "^2.1.0",
+    "ts-loader": "^9.6.0",
     "ts-node": "^10.9.2",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.3"
   },
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.10",
