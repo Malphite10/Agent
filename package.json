@@ -1,0 +1,27 @@
+{
+  "name": "agent",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@renderinc/sdk": "latest",
+    "@voltagent/core": "latest",
+    "@voltagent/libsql": "latest",
+    "@voltagent/logger": "latest",
+    "@voltagent/server-hono": "latest"
+  },
+  "devDependencies": {
+    "node-loader": "^2.0.0",
+    "ts-loader": "^9.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
